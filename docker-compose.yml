@@ -1,4 +1,7 @@
-apache:
-  image: php:5.6-apache
-  volumes:
-    - '.:/var/www/html'
+version: '2'
+
+services:
+  apache:
+    image: php:5.6-apache
+    volumes:
+      - '.:/var/www/html'
