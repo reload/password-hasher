@@ -4,4 +4,4 @@ services:
   apache:
     image: php:7.4-apache
     volumes:
-      - '.:/var/www/html'
+      - './web:/var/www/html'
