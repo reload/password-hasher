@@ -2,6 +2,6 @@ version: '2'
 
 services:
   apache:
-    image: php:7.4-apache
+    image: php:8.4-apache
     volumes:
       - './web:/var/www/html'
